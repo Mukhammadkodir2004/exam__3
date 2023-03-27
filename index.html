@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXAM__3</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="main max-auto">
+        <div class="container  mx-auto px-[20px]  ">
+            <div class="main__hero  flex justify-between  pt-[80px] max-[670px]:flex-col ">
+                <div class="hero__box-input  flex items-center justify-center   ">
+                    <form class="form__input   ">
+                        <h1 class="heading text-5xl font-bold mb-[25px]">Create Job</h1>
+                        <div class="input__box-Company-Name flex flex-col  mb-[20px]   ">
+                            <label for="name" class="label mb-[8px] text-2xl">Company name</label>
+                            <input  class="CompanyName max-w-[300px]   border-2 border-sky-500 rounded-lg pl-[10px] py-[5px] text-xl" type="text" placeholder="Company Name" required >
+                        </div>
+                        <div class="input__box-Job-Title flex flex-col  mb-[20px] ">
+                            <label for="name" class="label mb-[8px] text-2xl">Job Title</label>
+                            <input  class="JobTitle  max-w-[300px]  border-2 border-sky-500 rounded-lg pl-[10px] py-[5px] text-xl" type="text" placeholder="Job Title" required>
+                        </div>
+                        <div class="input__box-Salary flex flex-col  mb-[20px] ">
+                            <label for="name" class="label mb-[8px] text-2xl">Salary</label>
+                            <input  class="Salary  max-w-[300px]   border-2 border-sky-500 rounded-lg pl-[10px] py-[5px] text-xl" type="text" placeholder="Salary"  required >
+                        </div>
+                        <button type="submit" class="btn bg-[#10b981] mb-[30px] rounded-lg text-white px-[18px] py-[5px] active:bg-[#047857]">Create</button>
+                    </form>
+                </div>
+                <div class="">
+                    <h1 class="subheading text-5xl font-bold mb-[30px]  max-[670px]:text-center">All Jobs </h1>  
+                <ul class="hero__box-cards ">
+                 
+                </ul>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="/js/index.js"></script>
+</body>
+</html>
